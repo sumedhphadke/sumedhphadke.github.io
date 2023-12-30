@@ -34,7 +34,8 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/posts/:title/"
+#  notes = "/digitalgarden/:title/"
 
 [author]
 name = "Sumedh Phadke"
@@ -251,14 +252,14 @@ name = "Sumedh Phadke"
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about"
-  [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
   [[menu.main]]
     identifier = "garden"
     name       = "Digital Garden"
-    url        = "digital-garden/"
+    url        = "digitalgarden/"
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about"
